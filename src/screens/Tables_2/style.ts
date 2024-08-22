@@ -25,11 +25,14 @@ const useStyles = () => {
           flexDirection: 'row',
           justifyContent: 'flex-end',
         },
+        titleToc: {
+          position: 'absolute',
+          width: '100%',
+        },
         title: {
           ...globalStyles.TEXT_STYLE_BOLD,
           fontSize: sizes.FONTSIZE_6x,
           color: colors.WHITE,
-          position: 'absolute',
           width: '100%',
           textAlign: 'center',
         },

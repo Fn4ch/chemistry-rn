@@ -61,7 +61,11 @@ const ElementComponent = ({
             {el?.symbol}
           </Text>
 
-          {settings.showElementName && <Text style={styles.name}>{dictionary.elements[el?.symbol].name}</Text>}
+          {settings.showElementName && (
+            <Text numberOfLines={1} style={styles.name}>
+              {dictionary.elements[el?.symbol].name}
+            </Text>
+          )}
 
           {
             // @ts-ignore
@@ -169,7 +173,7 @@ const useStyles = () => {
     },
     name: {
       ...globalStyles.TEXT_STYLE_BOLD,
-      fontSize: sizes.FONTSIZE_1x * 0.6,
+      fontSize: sizes.FONTSIZE_1x * 0.9,
       paddingLeft: 2,
       color: colors.TEXT,
       position: 'absolute',

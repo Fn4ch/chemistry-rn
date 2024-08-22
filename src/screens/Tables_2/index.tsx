@@ -1,5 +1,5 @@
 import { View, Text, Image, TouchableWithoutFeedback, ScrollView, TouchableOpacity } from 'react-native';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Header from '../../components/app/Header';
 import GradientBackground from '../../components/app/GradientBackground';
 import useStyles from './style';
@@ -30,12 +30,20 @@ const Index = () => {
     column: -1,
   });
 
-const settings = useSelector(selectSettings);
+  const settings = useSelector(selectSettings);
 
   const horizontalScroll1 = useRef();
   const horizontalScroll2 = useRef();
 
-  AudioHandler(202, settings);
+  useEffect(() => {
+    setTimeout(() => {
+      StartPlayingAudio(202, settings);
+    }, 1000);
+
+    return () => {
+      StopPlayingAudio();
+    };
+  }, []);
 
   return (
     <>
@@ -43,14 +51,15 @@ const settings = useSelector(selectSettings);
       <GradientBackground>
         <View style={styles.container}>
           <View style={styles.titleView}>
-            <Text
-              style={styles.title}
+            <TouchableOpacity
+              style={{ ...styles.titleToc }}
+              onFocus={() => setFocused('toc')}
               onPress={() => {
-              StopPlayingAudio();
-              StartPlayingAudio(202, settings);
-            }}>
-              {dictionary.titles.solubilityChart}
-              </Text>
+                StopPlayingAudio();
+                StartPlayingAudio(202, settings);
+              }}>
+              <Text style={{ ...styles.title }}>{dictionary.titles.solubilityChart}</Text>
+            </TouchableOpacity>
           </View>
           <TouchableWithoutFeedback onFocus={() => setFocused('main-table')}>
             <View
