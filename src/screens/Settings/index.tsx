@@ -7,6 +7,7 @@ import DropDownPicker from '../../components/global/DropDownPicker';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   selectSettings,
+  setFontSize,
   setLangID,
   setPlaySound,
   setPrimaryColor,
@@ -55,6 +56,20 @@ const tableWidths = [
   },
 ];
 
+const getFontSizes = () => {
+  const sizes = [];
+  for (let i = 0.5; i <= 2; i += 0.1) {
+    const size = i.toFixed(1);
+    sizes.push({
+      label: `${size}x`,
+      value: size,
+    });
+  }
+
+  return sizes;
+};
+const fontSizes = getFontSizes();
+
 const Index = () => {
   const [focused, setFocused] = useState<string>('none');
   const { styles, colors, sizes, globalStyles } = useStyles();
@@ -71,6 +86,7 @@ const Index = () => {
           {/* Language */}
           <View style={styles.section}>
             <Text style={styles.label}>{dictionary.titles.language}</Text>
+            {/*  @ts-ignore */}
             <DropDownPicker
               focused={focused}
               setFocused={setFocused}
@@ -107,6 +123,22 @@ const Index = () => {
               selected={settings.tabWidth}
               setSelected={(value: string) => {
                 dispatch(setTabWidth(value));
+              }}
+            />
+          </View>
+
+          {/* Font Size */}
+          <View style={styles.section}>
+            <Text style={styles.label}>{dictionary.titles.fontSize}</Text>
+            <DropDownPicker
+              focused={focused}
+              setFocused={setFocused}
+              title={'font-size'}
+              // @ts-ignore
+              options={fontSizes}
+              selected={settings.fontSize}
+              setSelected={(value: string) => {
+                dispatch(setFontSize(value));
               }}
             />
           </View>

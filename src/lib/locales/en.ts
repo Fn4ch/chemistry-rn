@@ -136,6 +136,7 @@ export const getEnglishDictionary = (): Dictionary => ({
   },
 
   titles: {
+    fontSize: `Element name's font size`,
     search: 'Search',
     details: 'Details',
     audio: 'Audio',
@@ -199,8 +200,7 @@ export const getEnglishDictionary = (): Dictionary => ({
     H: {
       name: 'Hydrogen',
       nameOrigin: 'From the Greek word hydro (water), and genes (forming)',
-      description:
-        'Hydrogen is the primary component of Jupiter and the other gas giant planets',
+      description: 'Hydrogen is the primary component of Jupiter and the other gas giant planets',
       history:
         'Henry Cavendish was the first to distinguish hydrogen from other gases in 1766 when he prepared it by reacting hydrochloric acid with zinc.\n\nIn 1670, English scientist Robert Boyle had observed its production by reacting strong acids with metals.\n\nFrench scientist Antoine Lavoisier later named the element hydrogen in 1783.',
       applications:
@@ -209,8 +209,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Hydrogen poses a number of hazards to safety, from fires when mixed with air to being an asphyxiant in its pure form',
     },
     He: {
-      description:
-        'Unlike any other element, helium will remain liquid down to absolute zero at normal pressures',
+      description: 'Unlike any other element, helium will remain liquid down to absolute zero at normal pressures',
       name: 'Helium',
       nameOrigin: 'From the Greek word helios, the sun',
       history:
@@ -220,16 +219,14 @@ export const getEnglishDictionary = (): Dictionary => ({
       toxicity: 'Helium is not known to be toxic',
     },
     Li: {
-      description:
-        'Lithium is the only metal which reacts with nitrogen under normal conditions',
+      description: 'Lithium is the only metal which reacts with nitrogen under normal conditions',
       name: 'Lithium',
       nameOrigin: 'From the Greek word helios, the sun',
       history:
         'Lithium was discovered by Johann Arfvedson in 1817 when he was analyzing minerals from the island of Uto in Sweden.\n\nThe pure metal was isolated the following year by both Swedish chemist William Thomas Brande and English chemist Sir Humphry Davy working independently.\n\nIn 1855, larger quantities of lithium were produced through the electrolysis of lithium chloride by Robert Bunsen and Augustus Matthiessen.',
       applications:
         'Pure lithium metal is used in rechargeable lithium ion batteries.\n\nLithium stearate is used as an all-purpose and high-temperature lubricant.\n\nLithium is used in special glasses and ceramics.\n\nMetallic lithium and its complex hydrides are used as high energy additives to rocket propellants.',
-      toxicity:
-        'Lithium is corrosive and requires special handling to avoid skin contact',
+      toxicity: 'Lithium is corrosive and requires special handling to avoid skin contact',
     },
 
     Be: {
@@ -239,8 +236,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Louis-Nicolas Vauquelin discovered beryllium in the oxide form in both beryl and emeralds in 1798.\n\nFriedrich Wöhler and Antoine Bussy independently isolated beryllium in 1828 by the chemical reaction of metallic potassium with beryllium chloride.\n\nThe first commercially-successful process for producing beryllium was developed in 1932 by Alfred Stock and Hans Goldschmidt.',
       applications:
         'Beryllium is used in nuclear reactors as a reflector or moderator.\n\nBeryllium metal is used for lightweight structural components in the defense and aerospace industries in high-speed aircraft, guided missiles, space vehicles and satellites.\n\nUnlike most metals, beryllium is virtually transparent to x-rays and hence it is used in radiation windows for x-ray tubes.',
-      toxicity:
-        'Beryllium and its salts are toxic and should be handled with the greatest of care',
+      toxicity: 'Beryllium and its salts are toxic and should be handled with the greatest of care',
       description: 'Emerald is a naturally occurring compound of beryllium',
     },
 
@@ -250,8 +246,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       name: 'Boron',
       nameOrigin: 'From the Arabic word Buraq, Persian Burah',
       description: 'Boron is an essential nutrient for all green plants',
-      toxicity:
-        'Elemental boron, boron oxide, boric acid, borates and many organoboron compounds are non-toxic',
+      toxicity: 'Elemental boron, boron oxide, boric acid, borates and many organoboron compounds are non-toxic',
       applications:
         'Boron oxide is used in glassmaking and ceramics.\n\nBorax is used in making fiberglass, as a cleansing fluid, a water softener, insecticide, herbicide and disinfectant.\n\nBoric acid is used as a mild antiseptic and as a flame retardant.\n\nBoron shielding is used as a control for nuclear reactors.',
     },
@@ -277,22 +272,19 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Pure oxygen is frequently used to help breathing in patients with respiratory ailments.\n\nOxygen is used in oxyacetylene welding, as an oxidant for rocket fuel, and in methanol and ethylene oxide production.\n\nIt is also used in the production of steel, plastics and textiles.\n\nPlants and animals rely on oxygen for respiration.',
       toxicity:
         'Oxygen gas can be toxic at elevated partial pressures, leading to convulsions and other health problems',
-      description:
-        'Green and red colors in the Aurora Borealis are caused by oxygen atoms',
+      description: 'Green and red colors in the Aurora Borealis are caused by oxygen atoms',
     },
 
     N: {
       name: 'Natrium',
-      nameOrigin:
-        'From the Latin word nitrum, Greek Nitron, native soda; and genes, forming',
+      nameOrigin: 'From the Latin word nitrum, Greek Nitron, native soda; and genes, forming',
       history:
         'Nitrogen is considered to have been discovered by Scottish physician Daniel Rutherford in 1772, who called it noxious air or fixed air.\n\nIt was also studied at about the same time by Carl Wilhelm Scheele, Henry Cavendish and Joseph Priestley.\n\nIn 1790 the French chemist Jean-Antoine-Claude Chaptal named the element nitrogen.',
       applications:
         'Nitrogen is used to produce ammonia and fertilizers, vital for current food production methods.\n\nLiquid nitrogen is used as a refrigerant.\n\nNitric acid is used as an oxidizing agent in liquid fueled rockets.\n\nNitrogen is a constituent of molecules in every major drug class in pharmacology and medicine.',
       toxicity:
         'Rapid release of nitrogen gas into an enclosed space can displace oxygen, and therefore represents an asphyxiation hazard',
-      description:
-        'Nitrogen is present in all living organisms, in proteins, nucleic acids and other molecules',
+      description: 'Nitrogen is present in all living organisms, in proteins, nucleic acids and other molecules',
     },
 
     F: {
@@ -317,14 +309,12 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Na: {
       name: 'Sodium',
-      nameOrigin:
-        'From the English word, soda; Medieval Latin, sodanum: a headache remedy',
+      nameOrigin: 'From the English word, soda; Medieval Latin, sodanum: a headache remedy',
       history:
         "The chemical abbreviation for sodium was first published by Jöns Jakob Berzelius in his system of atomic symbols.\n\nIt is a contraction of the element's new Latin name natrium, which refers to the Egyptian natron, a natural mineral salt primarily made of hydrated sodium carbonate.\n\nIn 1807, Sir Humphry Davy isolated sodium for the first time by electrolysis of dried sodium hydroxide, which had been very slightly moistened.",
       applications:
         'Metallic sodium is vital in the manufacture of esters and in the preparation of organic compounds.\n\nSodium vapor lamps are often used for street lighting in cities.\n\nLiquid sodium is used as a heat transfer fluid in some fast reactors.\n\nSodium is also used as an alloying metal, an anti-scaling agent, and as a reducing agent for metals when other materials are ineffective.',
-      toxicity:
-        'Sodium metal should be handled with great care as it cannot be maintained in an inert atmosphere',
+      toxicity: 'Sodium metal should be handled with great care as it cannot be maintained in an inert atmosphere',
       description: 'Sodium burns in air with a brilliant yellow flame',
     },
     Mg: {
@@ -334,10 +324,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Scottish chemist Joseph Black recognized magnesium as an element in 1755.\n\nMagnesium was first isolated by Sir Humphry Davy in 1808, in London.\n\nHe used electrolysis on a mixture of magnesia and mercuric oxide.\n\nAntoine Bussy prepared it in coherent form in 1831.',
       applications:
         'Magnesium is widely used in the manufacturing of mobile phones, laptop computers, cameras, and other electronic components.\n\nThe brilliant light it produces when ignited is made use of in photography, flares, pyrotechnics and incendiary bombs.\n\nMagnesium compounds such as the hydroxide (milk of magnesia), sulfate (Epsom salts), chloride and citrate are used for medicinal purposes.',
-      toxicity:
-        'Because serious fires can occur, great care should be taken in handling magnesium metal',
-      description:
-        'When it burns in air, magnesium produces a brilliant white light',
+      toxicity: 'Because serious fires can occur, great care should be taken in handling magnesium metal',
+      description: 'When it burns in air, magnesium produces a brilliant white light',
     },
     Al: {
       name: 'Aluminum',
@@ -356,10 +344,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'In 1800, Sir Humphry Davy thought silica to be a compound and not an element; but in 1811, Gay Lussac and Louis Jacques Thénard probably prepared impure amorphous silicon by heating potassium with silicon tetrafluoride.\n\nIn 1824 Jöns Jakob Berzelius prepared amorphous silicon by the same general method.\n\nHenri Deville in 1854 first prepared crystalline silicon, the second allotropic form of the element.',
       applications:
         'In the form of sand and clay it is used to make concrete and brick; it is a useful refractory material for high-temperature work, and in the form of silicates it is used in making enamels, pottery, etc.\n\nSilica, as sand, is a principal ingredient of glass.\n\nSilicon chips are the basis of modern electronic and computing.\n\nSilicon carbide, more commonly called carborundum is used in abrasives.',
-      toxicity:
-        'If breathed in as a fine silica/silicate dust, it may cause chronic respiratory problems',
-      description:
-        'Silicon also has the unusual property that it expands as it freezes',
+      toxicity: 'If breathed in as a fine silica/silicate dust, it may cause chronic respiratory problems',
+      description: 'Silicon also has the unusual property that it expands as it freezes',
     },
 
     P: {
@@ -370,10 +356,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Hennig Brand discovered phosphorus in 1669, in Hamburg, Germany, preparing it from urine.\n\nIn 1769, Johan Gottlieb Gahn and Carl Wilhelm Scheele showed that calcium phosphate is found in bones, and they obtained elemental phosphorus from bone ash.\n\nAntoine Lavoisier recognized phosphorus as an element in 1777.',
       applications:
         'Many fertilisers contain a high proportion of phosphorus and are manufactured from concentrated phosphoric acids.\n\nPhosphorus is used in the manufacture of safety matches, pyrotechnics and incendiary shells.\n\nPhosphorus is also used in steel manufacture and in the production of phosphor bronze.',
-      toxicity:
-        'White phosphorus is highly toxic while red phosphorus is considered non-toxic',
-      description:
-        'Elemental phosphorus exists in two major forms - white phosphorus and red phosphorus',
+      toxicity: 'White phosphorus is highly toxic while red phosphorus is considered non-toxic',
+      description: 'Elemental phosphorus exists in two major forms - white phosphorus and red phosphorus',
     },
     S: {
       name: 'Sulfur',
@@ -393,10 +377,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Around 1630, chlorine was recognized as a gas by the Belgian chemist and physician Jan Baptist van Helmont.\n\nElemental chlorine was first prepared and studied in 1774 by Swedish chemist Carl Wilhelm Scheele.\n\nBy 1810, the scientific consensus was that chlorine was actually a compound that contained oxygen.\n\nIn 1811, Sir Humphry Davy concluded the new gas was in fact a new element.',
       applications:
         'Chlorine is used for producing safe drinking water.\n\nIt is also extensively used in the production of paper products, dyestuffs, textiles, petroleum products, medicines, antiseptics, insecticides, food, solvents, paints, plastics, and many other consumer products.\n\nChlorinated compounds are used mostly for sanitation, pulp bleaching, disinfectants, and textile processing.',
-      toxicity:
-        'Elemental chlorine at high concentrations is extremely dangerous and poisonous',
-      description:
-        'Tree frogs have a chlorine compound in their skin that is a very powerful pain killer',
+      toxicity: 'Elemental chlorine at high concentrations is extremely dangerous and poisonous',
+      description: 'Tree frogs have a chlorine compound in their skin that is a very powerful pain killer',
     },
     Ar: {
       name: 'Argon',
@@ -410,16 +392,13 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     K: {
       name: 'Potassium',
-      nameOrigin:
-        'From the English word, potash - pot ashes; Latin kalium, Arab qali, alkali',
+      nameOrigin: 'From the English word, potash - pot ashes; Latin kalium, Arab qali, alkali',
       history:
         "Potassium's symbol K comes from 'kalium' the name of the element in Germany and Scandinavia.\n\nPotassium metal was first isolated in 1807 by Sir Humphry Davy, who derived it from caustic potash by the use of electrolysis of the molten salt with the newly discovered voltaic pile.\n\nPotassium was the first metal that was isolated by electrolysis.",
       applications:
         'The greatest demand for potash has been in its use for fertilizers.\n\nPotassium is an essential constituent for plant growth and is found in most soils.\n\nPotassium nitrate is the main explosive ingredient in gunpowder.\n\nPotassium hydroxide is used in the manufacture of soft soaps and as an electrolyte in alkaline batteries.',
-      toxicity:
-        'Potassium must be handled with great care with full skin and eye protection',
-      description:
-        'People whose diets are low in potassium can suffer from hypokalemia',
+      toxicity: 'Potassium must be handled with great care with full skin and eye protection',
+      description: 'People whose diets are low in potassium can suffer from hypokalemia',
     },
     Ca: {
       name: 'Calcium',
@@ -429,8 +408,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Calcium is used to remove oxygen, sulfur and carbon from alloys.\n\nIt is also used as an alloying agent used in the production of aluminum, beryllium, copper, lead, and magnesium alloys.\n\nCalcium is used as a reducing agent in the extraction of other metals, such as uranium, zirconium, and thorium.\n\nCalcium carbonate is used in manufacturing cement and mortar, lime and limestone.',
       toxicity: 'Calcium is considered to be non-toxic',
-      description:
-        'The shell of an egg is made up of primarily calcium carbonate',
+      description: 'The shell of an egg is made up of primarily calcium carbonate',
     },
     Sc: {
       name: 'Scandium',
@@ -440,20 +418,17 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Scandium is used in sports equipment such as golf iron shafts, baseball bats, bicycle frames and fishing rods.\n\n,Scandium iodide, along with sodium iodide, when added to a modified form of mercury-vapor lamp, produces a form of metal halide lamp.',
       toxicity: 'Scandium is considered to be of low toxicity',
-      description:
-        'The stable form of scandium is created in supernovas via the r-process',
+      description: 'The stable form of scandium is created in supernovas via the r-process',
     },
     Ti: {
       name: 'Titanium',
-      nameOrigin:
-        'From the Latin titans, the first sons of the Earth, Greek mythology',
+      nameOrigin: 'From the Latin titans, the first sons of the Earth, Greek mythology',
       history:
         'William Gregor found the oxide of titanium in ilmenite in 1791.\n\nMartin Heinrich Klaproth independently discovered the element in rutile in 1795 and named it.\n\nThe pure metallic form was only obtained in 1910 by Matthew A. Hunter.\n\nIn 1936, the Kroll Process made the commercial production of titanium possible.',
       applications:
         'Titanium is used in steel as an alloying element to reduce grain size and as a deoxidizer, and in stainless steel to reduce carbon content.\n\nTitanium has potential use in desalination plants for converting sea water into fresh water.\n\nTitanium is used in several everyday products such as drill bits, bicycles, golf clubs, watches and laptop computers.',
       toxicity: 'Titanium metal is considered to be non-toxic',
-      description:
-        'Titanium is one of the few elements that burns in pure nitrogen gas',
+      description: 'Titanium is one of the few elements that burns in pure nitrogen gas',
     },
     V: {
       name: 'Vanadium',
@@ -463,8 +438,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Vanadium is used as an additive in steel to strengthen and protect against corrosion.\n\nTitanium-aluminum-vanadium alloy is used in jet engines and for high-speed aircraft.\n\nVanadium foil is used in cladding titanium to steel.\n\nVanadium pentoxide is used in ceramics and as a catalyst for the production of sulfuric acid.',
       toxicity: 'All vanadium compounds should be considered toxic',
-      description:
-        'Vanadium is mined mostly in South Africa, north-western China, and eastern Russia',
+      description: 'Vanadium is mined mostly in South Africa, north-western China, and eastern Russia',
     },
     Cr: {
       name: 'Chromium',
@@ -473,22 +447,18 @@ export const getEnglishDictionary = (): Dictionary => ({
         'In 1797, Louis Nicolas Vauquelin received samples of crocoite ore.\n\nIn 1798, Vauquelin discovered that he could isolate metallic chromium by heating the oxide in a charcoal oven, making him the discoverer of the element.\n\nVauquelin was also able to detect traces of chromium in precious gemstones, such as ruby or emerald.',
       applications:
         'Chromium is used to harden steel, manufacture stainless steel, and form many useful alloys.\n\nIt is mostly used in plating to produce a hard, beautiful surface and to prevent corrosion.\n\nThe metal is also widely used as a catalyst.\n\nChromium compounds are valued as pigments for their vivid green, yellow, red and orange colors.',
-      description:
-        'Chromium oxide was used by the Chinese in the Qin dynasty over 2,000 years ago',
+      description: 'Chromium oxide was used by the Chinese in the Qin dynasty over 2,000 years ago',
       toxicity: 'In larger amounts, chromium can be toxic and carcinogenic',
     },
     Mn: {
       name: 'Manganese',
-      nameOrigin:
-        'From the Latin word magnes, magnet, from magnetic properties of pyrolusite',
+      nameOrigin: 'From the Latin word magnes, magnet, from magnetic properties of pyrolusite',
       history:
         'By the mid-18th century, Swedish chemist Carl Wilhelm Scheele had used pyrolusite to produce chlorine.\n\nScheele and others were aware that pyrolusite contained a new element, but they were not able to isolate it.\n\nJohan Gottlieb Gahn was the first to isolate an impure sample of manganese metal in 1774, by reducing the dioxide with carbon.',
       applications:
         'For over 2000 years, manganese dioxide has been used to make colorless glass.\n\nManganese dioxide is used as the cathode material in zinc-carbon and alkaline batteries.\n\nManganese also functions in the oxygen-evolving complex of photosynthetic plants.\n\nThe dioxide is also used in the preparation of oxygen and chlorine and in drying black paints.',
-      toxicity:
-        'Excess manganese, particularly inhalation of the powder, is toxic',
-      description:
-        'Neanderthals may have used black manganese di oxide as a cosmetic 50,000 years ago',
+      toxicity: 'Excess manganese, particularly inhalation of the powder, is toxic',
+      description: 'Neanderthals may have used black manganese di oxide as a cosmetic 50,000 years ago',
     },
     Fe: {
       name: 'Iron',
@@ -497,33 +467,28 @@ export const getEnglishDictionary = (): Dictionary => ({
         'The first iron used by humans is likely to have come from meteorites.\n\nThe oldest known iron objects used by humans are some beads of meteoric iron, made in Egypt in about 4000 BC.\n\nThe discovery of smelting around 3000 BC led to the start of the iron age around 1200 BC and the prominent use of iron for tools and weapons.',
       applications:
         'Iron is used to manufacture steel and other alloys important in construction and manufacturing.\n\nIron is a vital constituent of plant and animal life and works as an oxygen carrier in hemoglobin.\n\nIron oxide mixed with aluminum powder can be ignited to create a thermite reaction, used in welding and purifying ores.',
-      description:
-        'The color of blood is due to the hemoglobin, an iron-containing protein',
+      description: 'The color of blood is due to the hemoglobin, an iron-containing protein',
       toxicity: 'Iron is considered to be non-toxic',
     },
     Co: {
       name: 'Cobalt',
-      nameOrigin:
-        'From the German word Kobald, goblin or evil spirit; also from the Greek cobalos, mine',
+      nameOrigin: 'From the German word Kobald, goblin or evil spirit; also from the Greek cobalos, mine',
       history:
         'Cobalt compounds have been used for centuries to impart a rich blue color to glass, glazes and ceramics.\n\nThe element was first isolated by Swedish chemist George Brandt in 1735.\n\nHe showed it was the presence of the element cobalt that caused the blue color in glass, not bismuth as previously thought.',
       applications:
         'Cobalt is used in the preparation of magnetic, wear-resistant and high-strength alloys.\n\nCobalt is widely used in batteries and in electroplating.\n\nA solution of the chloride is used as a sympathetic ink.',
-      description:
-        "Supplemental colbalt is essential in sheep's diets to improve the wools quality",
+      description: "Supplemental colbalt is essential in sheep's diets to improve the wools quality",
       toxicity: 'Cobalt and its compounds are considered to be slightly toxic',
     },
     Ni: {
       name: 'Nickel',
-      nameOrigin:
-        "From the German word Nickel (Satan), and from kupfernickel, Old Nick's copper",
+      nameOrigin: "From the German word Nickel (Satan), and from kupfernickel, Old Nick's copper",
       history:
         'Artifacts made from metallic meteorites have been found dating from as early as 5000 BC.\n\nIn 1751, Baron Axel Fredrik Cronstedt was trying to extract copper from kupfernickel and instead produced the white metal.\n\nIn the early twentieth century, Ludwig Mond patented a process using nickel carbonyl to purify nickel.',
       applications:
         'Nickel is used extensively to make coins and nickel steel for armor plates and burglar-proof vaults.\n\nTubing made of copper-nickel alloy is extensively used in making desalination plants for converting sea water into fresh water.\n\nNickel is also used in batteries, ceramics and magnets.',
       toxicity: 'Nickel and its compounds are considered to be carcinogenic',
-      description:
-        "Nickel is 100 times more concentrated below Earth's crust than in it",
+      description: "Nickel is 100 times more concentrated below Earth's crust than in it",
     },
     Cu: {
       name: 'Copper',
@@ -532,8 +497,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Copper occurs naturally as native copper and was known to some of the oldest civilizations on record.\n\nEarliest estimates of the discovery of copper suggest around 9000 BC in the Middle East.\n\nIt was one of the most important materials to humans throughout the copper and bronze ages.',
       applications:
         'Copper is often used for electrical wiring applications and for household plumbing applications.\n\nCopper sulfate is used as a fungicide and as an algicide in rivers, lakes and ponds.\n\nIt is also used in cookware and cooking utensils.\n\nCommercially important alloys such as brass and bronze are made with copper and other metals.',
-      description:
-        'Pure copper is orange-red and acquires a reddish tarnish when exposed to air',
+      description: 'Pure copper is orange-red and acquires a reddish tarnish when exposed to air',
       toxicity: 'Cooking acidic food in copper pots can cause toxicity',
     },
     Zn: {
@@ -548,15 +512,13 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Ga: {
       name: 'Gallium',
-      nameOrigin:
-        'From the Latin word Gallia, France; also from Latin, gallus, a translation of Lecoq, a cock',
+      nameOrigin: 'From the Latin word Gallia, France; also from Latin, gallus, a translation of Lecoq, a cock',
       history:
         'In 1871, existence of gallium was first predicted by Russian chemist Dmitri Mendeleev and called the element eka-aluminum.\n\nGallium was discovered spectroscopically by French chemist Paul Emile Lecoq de Boisbaudran in 1875 by its characteristic spectrum in an examination of a sphalerite sample.\n\nLater that year, Lecoq obtained the free metal by electrolysis of its hydroxide in potassium hydroxide solution.',
       applications:
         'Gallium wets glass or porcelain and forms a brilliant mirror when it is painted on glass.\n\nIt is widely used in doping semiconductors and producing solid-state devices such as transistors.\n\nLow melting gallium alloys are used in some medical thermometers as non-toxic substitutes for mercury.\n\nGallium arsenide is capable of converting electricity directly into coherent light.',
       toxicity: 'Gallium is considered to be non-toxic',
-      description:
-        'Gallium has a strong tendency to supercool below its melting point / freezing point',
+      description: 'Gallium has a strong tendency to supercool below its melting point / freezing point',
     },
     Ge: {
       name: 'Germanium',
@@ -566,8 +528,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'The most common use of germanium is as a semiconductor in electronics.\n\nGermanium is used in transistors and in integrated circuits.\n\nIt is used as an alloying agent and as a catalyst.\n\nIt is also used in infrared spectroscopes and infrared detectors.',
       toxicity: 'Germanium is not known to be toxic',
-      description:
-        'Germanium and the oxide are transparent to infrared radiation',
+      description: 'Germanium and the oxide are transparent to infrared radiation',
     },
     As: {
       name: 'Arsenic',
@@ -586,8 +547,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Selenium was first observed in about the year 1300 by the alchemist Arnold of Villanova.\n\nSelenium was discovered in 1817 by Jöns Jacob Berzelius and Johan Gottlieb Gahn who noted the similarity of the new element to the previously-known tellurium.\n\nIn 1873, Willoughby Smith found that the electrical resistance of grey selenium was dependent on the ambient light.',
       applications:
         'Selenium is used in the glass industry to decolorize glass and to make red-colored glasses and enamels.\n\nIt is used as a catalyst in many chemical reactions.\n\nIt is also used as a photographic toner, and as an additive to stainless steel.\n\nSelenium sulfide is used in anti-dandruff shampoos.',
-      toxicity:
-        "Many of selenium's compounds, such as selenates and selenites, are highly toxic",
+      toxicity: "Many of selenium's compounds, such as selenates and selenites, are highly toxic",
       description: 'Selenium deficiency in animals can lead to slow growth',
     },
     Br: {
@@ -598,8 +558,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Bromine is used in making fumigants, flameproofing agents, water purification compounds, dyes, medicines and sanitizers.\n\nPotassium bromide is used as a source of bromide ions for the manufacture of silver bromide for photographic film.\n\nBromine is also used to reduce mercury pollution from coal-fired power plants.',
       toxicity: 'Bromine is poisonous and causes skin burns',
-      description:
-        'Bromine is the only nonmetallic element that is liquid at ordinary temperatures',
+      description: 'Bromine is the only nonmetallic element that is liquid at ordinary temperatures',
     },
     Kr: {
       name: 'Krypton',
@@ -637,16 +596,14 @@ export const getEnglishDictionary = (): Dictionary => ({
         "In 1787, Carl Axel Arrhenius found a new mineral near Ytterby in Sweden and named it ytterbite, after the village.\n\nJohan Gadolin discovered yttrium's oxide in Arrhenius' sample in 1789, and Anders Gustaf Ekeberg named the new oxide yttria.\n\nElemental yttrium was first isolated in 1828 by Friedrich Wöhler.",
       applications:
         'Yttrium is often used in alloys, increasing the strength of aluminum and magnesium alloys.\n\nYttrium is one of the elements used to make the red color in CRT televisions.\n\nIt is also used as a deoxidizer for non-ferrous metals such as vanadium.\n\nYttrium can be used in laser systems and as a catalyst for ethylene polymerization reactions.',
-      toxicity:
-        'Exposure to yttrium compounds in humans may cause lung disease',
+      toxicity: 'Exposure to yttrium compounds in humans may cause lung disease',
       description: 'Finely divided yttrium is very unstable in air',
       nameOrigin: 'Named after Ytterby, a village in Sweden near Vauxholm',
     },
     Zr: {
       name: 'Zirconium',
       nameOrigin: 'From the Persian zargun, gold like',
-      description:
-        'The most common oxide is zirconium dioxide, also referred to as zirconia',
+      description: 'The most common oxide is zirconium dioxide, also referred to as zirconia',
       toxicity: 'Zirconium is considered to be non-toxic',
       history:
         'Zirconium was first recognized as an element by Martin Heinrich Klaproth in 1789, in Berlin, in a sample of zircon from Sri Lanka.\n\nZirconium metal was first obtained in an impure form in 1824 by Jöns Jakob Berzelius by heating a mixture of potassium and potassium zirconium fluoride in an iron tube.\n\nDutch scientists Anton Eduard van Arkel and Jan Hendrik de Boer discovered a method for producing high purity zirconium in 1925.',
@@ -680,14 +637,12 @@ export const getEnglishDictionary = (): Dictionary => ({
         "Technetium is used in nuclear medicine to carry out a number of medical tests, mainly relating to imaging and functional studies of internal bodily organs like bone scan.\n\nIt is also used industrially for equipment calibration following its approval as a standard beta emitter.\n\nMild carbon steels may be effectively protected by minute quantities of technetium, but this corrosion protection is limited to closed systems because of technetium's radioactivity.",
       history:
         'Element 43 was predicted on the basis of the periodic table, and was erroneously reported as having been discovered in 1925, at which time it was named masurium.\n\nThe element was actually discovered by Carlo Perrier and Emilio Segrè in 1937.\n\nIt was also found in a sample of molybdenum sent by Ernest Lawrence that was bombarded by deuterons in the Berkeley cyclotron.\n\n',
-      description:
-        'Technetium was the first element to be produced artificially',
+      description: 'Technetium was the first element to be produced artificially',
       toxicity: 'Technetium is harmful due to its radioactivity',
     },
     Ru: {
       name: 'Ruthenium',
-      toxicity:
-        'Ruthenium is a suspected carcinogen and its compounds strongly stain the skin',
+      toxicity: 'Ruthenium is a suspected carcinogen and its compounds strongly stain the skin',
       description: 'Ruthenium is unaffected by air, water and acids',
       nameOrigin: 'From the Latin word Ruthenia, Russia',
       applications:
@@ -696,8 +651,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Jędrzej Śniadecki isolated the element in 1807, but his work was not ratified.\n\nJöns Berzelius and Gottfried Osann nearly discovered ruthenium in 1827.\n\nIn 1844, Karl Ernst Claus confirmed that there was a new element and isolated ruthenium from the platinum residues of the rouble production while he was working in Kazan University, Kazan.',
     },
     Rh: {
-      description:
-        'Rhodium metal does not normally form an oxide, even when heated',
+      description: 'Rhodium metal does not normally form an oxide, even when heated',
       name: 'Rhodium',
       toxicity: 'Rhodium is considered to be non-toxic',
       applications:
@@ -713,10 +667,8 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'The largest use of palladium is in catalytic converters in the automobile industry.\n\nFinely divided palladium is a good catalyst and is used for hydrogenation and dehydrogenation reactions.\n\nThe metal is used in dentistry, watch making, and in making surgical instruments and electrical contacts.',
       toxicity: 'Palladium is considered to be of low toxicity',
-      description:
-        'In the late 1800s, palladium was more expensive than platinum',
-      nameOrigin:
-        'Palladium was named after the asteroid Pallas; Pallas was the Greek goddess of wisdom',
+      description: 'In the late 1800s, palladium was more expensive than platinum',
+      nameOrigin: 'Palladium was named after the asteroid Pallas; Pallas was the Greek goddess of wisdom',
     },
     Ag: {
       name: 'Silver',
@@ -726,13 +678,11 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Silver has long been valued as a precious metal, and is used as an investment, to make ornaments, jewelry, high-value tableware, utensils, and currency coins.\n\nIt is also used in electrical contacts and conductors, in mirrors and in catalysis of chemical reactions.\n\nIts compounds are used in photographic film, and dilute silver nitrate solutions and other silver compounds are used as disinfectants and microbiocides',
       toxicity: 'Silver is considered to be non-toxic',
-      description:
-        'In ancient Egypt and Medieval Europe, silver was often more valuable than gold',
+      description: 'In ancient Egypt and Medieval Europe, silver was often more valuable than gold',
     },
     Cd: {
       name: 'Cadnium',
-      nameOrigin:
-        'From the Latin word cadmia, Greek kadmeia - the ancient name for calamine, zinc carbonate',
+      nameOrigin: 'From the Latin word cadmia, Greek kadmeia - the ancient name for calamine, zinc carbonate',
       history:
         'Cadmium was discovered by German chemist Friedrich Stromeyer in 1817 as an impurity in zinc carbonate.\n\nStromeyer noted that some impure samples of calamine (zinc carbonate) changed color when heated but pure calamine did not.\n\nCadmium was independently discovered by German chemist Karl Hermann in 1818.',
       applications:
@@ -755,12 +705,10 @@ export const getEnglishDictionary = (): Dictionary => ({
       nameOrigin: 'The Latin word for tin is stannum',
       history:
         'Tin was first smelted in combination with copper around 3500 BC to produce bronze.\n\nThe oldest artifacts date from around 2000 BC.\n\nCassiterite, the tin oxide form of tin, was most likely the original source of tin in ancient times.\n\nBritish scientist Robert Boyle published a description of his experiments on the oxidation of tin in 1673.',
-      toxicity:
-        'Tin is considered to be non-toxic but most tin salts are toxic',
+      toxicity: 'Tin is considered to be non-toxic but most tin salts are toxic',
       applications:
         'Tin is used as a coating on the surface of other metals to prevent corrosion.\n\nIt has long been used as a solder in the form of an alloy with lead.\n\nTin salts sprayed onto glass are used to produce electrically conductive coatings.\n\nTin chloride is used as a mordant in dyeing textiles and for increasing the weight of silk.',
-      description:
-        'When a bar of tin is bent, a crackling sound known as the tin cry can be heard',
+      description: 'When a bar of tin is bent, a crackling sound known as the tin cry can be heard',
     },
     Sb: {
       name: 'Antimony',
@@ -770,8 +718,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         "One of antimony's minerals, stibnite was recognized in predynastic Egypt as an eye cosmetic as early as about 3100 BC.\n\nThe first European description of a procedure for isolating antimony is in the book De la pirotechnia of 1540 by Vannoccio Biringuccio.\n\nThe first natural occurrence of pure antimony in the Earth's crust was described by the Swedish scientist and local mine district engineer Anton von Swab in 1783.",
       toxicity: 'Antimony and many of its compounds are toxic',
       description: 'Antimony is a poor conductor of heat and electricity',
-      nameOrigin:
-        'From the Greek word anti plus monos - a metal not found alone',
+      nameOrigin: 'From the Greek word anti plus monos - a metal not found alone',
     },
     Te: {
       name: 'Tellurium',
@@ -779,10 +726,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Tellurium was discovered in Transylvania in 1782 by Franz-Joseph Müller von Reichenstein in a mineral containing tellurium and gold.\n\nIn 1789, another Hungarian scientist, Pál Kitaibel, also discovered the element independently in an ore from Deutsch-Pilsen which had been regarded as argentiferous molybdenite.\n\nIn 1798, it was named by Martin Heinrich Klaproth who earlier isolated it from the mineral calaverite.',
       applications:
         'The primary use of tellurium is in alloys, foremost in steel and copper to improve machinability.\n\nTellurium is used as a basic ingredient in blasting caps, and is added to cast iron for chill control.\n\nIt is used in vulcanizing rubber and in catalysts for petroleum cracking.\n\nTellurium is used as a coloring agent in ceramics.',
-      description:
-        'In air, tellurium burns with a greenish-blue flames, forming the dioxide',
-      toxicity:
-        'Tellurium and tellurium compounds are considered to be mildly toxic',
+      description: 'In air, tellurium burns with a greenish-blue flames, forming the dioxide',
+      toxicity: 'Tellurium and tellurium compounds are considered to be mildly toxic',
       nameOrigin: 'From the Latin word tellus, earth',
     },
     I: {
@@ -792,8 +737,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Iodine compounds are important in organic chemistry and very useful in medicine.\n\nA solution containing potassium iodide and iodine in alcohol is used to disinfect external wounds.\n\nSilver iodide is a major ingredient to traditional photographic film.\n\nIodine is added to table salt to prevent thyroid disease.',
       toxicity: 'Elemental iodine is toxic if taken orally',
-      description:
-        'Kelp was the main source of natural iodine in the 18th and 19th centuries',
+      description: 'Kelp was the main source of natural iodine in the 18th and 19th centuries',
       nameOrigin: 'From the Greek word iodes, violet',
     },
     Xe: {
@@ -814,8 +758,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'The radioactive isotope cesium-137 has a half-life of about 30 years and is used in medical applications, industrial gauges, and hydrology.\n\nCesium is also used in photoelectric cells and as a catalyst in the hydrogenation of organic compounds.\n\nCesium vapor thermionic generators are low-power devices that convert heat energy to electrical energy.',
       toxicity: 'Cesium compounds are considered to be mildly toxic',
-      description:
-        'Cesium was the first element discovered using a spectroscope',
+      description: 'Cesium was the first element discovered using a spectroscope',
     },
     Ba: {
       applications:
@@ -834,8 +777,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Lanthanum was discovered in 1839 by Swedish chemist Carl Gustav Mosander.\n\nHe partially decomposed a sample of cerium nitrate by heating and treating the resulting salt with dilute nitric acid.\n\nFrom the resulting solution, he obtained a pale brick colored oxide of the new rare earth.\n\nLanthanum was isolated in relatively pure form in 1923.',
       applications:
         'Lanthanum is used in large quantities in batteries for hybrid automobiles.\n\nIt is also used to make night vision goggles.\n\nSmall amounts of lanthanum, as an additive, can be used to produce nodular cast iron.\n\nLanthanum carbonate is used to reduce blood levels of phosphate in patients with kidney disease.',
-      toxicity:
-        'Lanthanum and its compounds are considered to be moderately toxic',
+      toxicity: 'Lanthanum and its compounds are considered to be moderately toxic',
       description: 'Lanthanum is the most reactive of the rare earth metals',
     },
     Hf: {
@@ -845,21 +787,18 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Hafnium oxide-based compounds are being introduced into silicon-based chips to produce smaller, more energy efficient and performance packed processors.\n\nMost of the hafnium produced is used in the production of control rods for nuclear reactors.\n\nHafnium is also used in photographic flash bulbs, light bulb filaments, and in electronic equipment as cathodes and capacitors.',
       toxicity: 'Hafnium is considered to be non-toxic',
-      description:
-        'In powdered form, hafnium is pyrophoric and can ignite spontaneously in air',
+      description: 'In powdered form, hafnium is pyrophoric and can ignite spontaneously in air',
       name: 'Hafnium',
     },
     Ta: {
       name: 'Tantalum',
-      nameOrigin:
-        'Named after Tantalos, a Greek mythological character, father of Niobe',
+      nameOrigin: 'Named after Tantalos, a Greek mythological character, father of Niobe',
       history:
         "Tantalum was discovered in Sweden in 1802 by Anders Ekeberg in the minerals tantalite from Finland and yttrotantalite from Sweden.\n\nUnfortunately, William Hyde Wollaston claimed Ekeberg's new element was actually niobium, which had also been discovered in 1802.\n\nIn 1846, German chemist Heinrich Rose finally proved beyond doubt that tantalum and niobium were different elements.",
       applications:
         'Tantalum is used in the electronics industry for capacitors and high power resistors.\n\nThe high melting point and oxidation resistance lead to the use of the metal in the production of vacuum furnace parts.\n\nTantalum oxide is used to make special glass with high index of refraction for camera lenses.',
       toxicity: 'Tantalum is considered to be non-toxic',
-      description:
-        'Tantalum occurs principally in the mineral columbite-tantalite',
+      description: 'Tantalum occurs principally in the mineral columbite-tantalite',
     },
     W: {
       name: 'Tungsten',
@@ -868,8 +807,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Torbern Bergman obtained from scheelite an oxide of a new element in 1781.\n\nIn 1783, José and Fausto Elhuyar found an acid made from wolframite that was identical to tungstic acid.\n\nLater that year, in Spain, the brothers succeeded in isolating tungsten by reduction of this acid with charcoal, and they are credited with the discovery of the element.',
       applications:
         'Tungsten and its alloys are widely used for filaments in electric bulbs and electronic tubes.\n\nTungsten carbide is of great importance to the metal-working, mining, and petroleum industries.\n\nTungsten oxides are used in ceramic glazes and calcium/magnesium tungstates are used widely in fluorescent lighting.',
-      description:
-        'The chemical symbol, W, comes from the original name of the element, Wolfram',
+      description: 'The chemical symbol, W, comes from the original name of the element, Wolfram',
       toxicity: 'Tungsten is considered to be of low toxicity',
     },
     Re: {
@@ -889,10 +827,8 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Osmium was discovered in 1803 by English chemist Smithson Tennant in London.\n\nChemists who studied platinum dissolved it in aqua regia to create soluble salts and observed a small amount of a dark, insoluble residue.\n\nSmithson Tennant analyzed the insoluble residue and concluded that it must contain a new metal.',
       applications:
         'Osmium is used alloyed with other metals in the platinum group to produce very hard alloys.\n\nOsmium alloys are used in the tips of fountain pens, instrument pivots, and electrical contacts.\n\nOsmium tetroxide has been used in fingerprint detection and in staining fatty tissue for optical and electron microscopy.',
-      toxicity:
-        'Even low concentrations in air can cause lung congestion, skin damage, or eye damage',
-      description:
-        "Osmium is the least abundant stable element in the Earth's crust",
+      toxicity: 'Even low concentrations in air can cause lung congestion, skin damage, or eye damage',
+      description: "Osmium is the least abundant stable element in the Earth's crust",
     },
     Ir: {
       name: 'Iridium',
@@ -912,8 +848,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'The most common use of platinum is as a catalyst in chemical reactions.\n\nPlatinum is used in jewelry, decoration and dental work.\n\nPlatinum-cobalt, an alloy of roughly three parts platinum and one part cobalt, is used to make relatively strong permanent magnets.\n\nPlatinum-based anodes are used in ships, pipelines, and steel piers.',
       toxicity: 'Platinum is considered to be non-toxic',
-      description:
-        'Platinum exists in higher abundances on the Moon and in meteorites',
+      description: 'Platinum exists in higher abundances on the Moon and in meteorites',
     },
     Au: {
       name: 'Gold',
@@ -933,8 +868,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         "Mercury is used in barometers and manometers because of its high density.\n\nGaseous mercury is used in mercury-vapor lamps and some 'neon sign' type advertising signs and fluorescent lamps.\n\nMercury is also found in liquid mirror telescopes.\n\nGaseous mercury is also found in some electron tubes, including ignitrons, thyratrons, and mercury arc rectifiers.",
       toxicity: 'Mercury and most of its compounds are highly toxic',
-      description:
-        'Mercury is the only metal that is liquid at room temperature',
+      description: 'Mercury is the only metal that is liquid at room temperature',
     },
     Tl: {
       name: 'Thallium',
@@ -943,8 +877,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Thallium was discovered spectroscopically by Sir William Crookes in 1861, in London.\n\nIn 1862, Claude-Auguste Lamy used a spectrometer to determine the composition of a selenium-containing substance which was deposited during the production of sulfuric acid from pyrite.\n\nHe noticed the new green line in the spectra and concluded that a new element was present.',
       applications:
         'Thallium selenide has been used in a bolometer for infrared detection.\n\nThallium is also used in gamma radiation detection equipment.\n\nThallium oxide has been used to produce glasses with a high index of refraction, and is used in the manufacture of photo cells.\n\nSome of the electrodes in dissolved oxygen analyzers contain thallium.',
-      description:
-        "Agatha Christie made use of thallium's toxicity in her novel The Pale Horse",
+      description: "Agatha Christie made use of thallium's toxicity in her novel The Pale Horse",
       toxicity: 'Thallium and its compounds are highly toxic',
     },
     Pb: {
@@ -955,8 +888,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Large quantities of lead, both as the metal and as the dioxide, are used in storage batteries.\n\nLead is used as electrodes in the process of electrolysis.\n\nIt is added to brass to reduce machine tool wear.\n\nLead, in either pure form or alloyed with tin, or antimony is the traditional material for bullets and shot in firearms use.',
       toxicity: 'Lead and its compounds are poisonous',
-      description:
-        'Pencil leads in wooden pencils have never been made from lead',
+      description: 'Pencil leads in wooden pencils have never been made from lead',
     },
     Bi: {
       name: 'Bismuth',
@@ -966,8 +898,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       history:
         'Bismuth has been known since ancient times, so no one person is credited with its discovery.\n\nThe element was confused in early times with tin and lead because of its resemblance to those elements.\n\nIn 1753, French chemist Claude François Geoffroy demonstrated that this metal is distinct from lead and tin.',
       toxicity: 'Bismuth is considered to be non-toxic',
-      description:
-        'Bismuth has unusually high electrical resistance for a metal',
+      description: 'Bismuth has unusually high electrical resistance for a metal',
     },
     Po: {
       name: 'Polonium',
@@ -977,12 +908,10 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Polonium is used to eliminate static electricity produced during processes such as rolling paper, wire and sheet metal.\n\nPolonium can be mixed or alloyed with beryllium to provide a source of neutrons.\n\nIt is also used in anti-static brushes to eliminate dust on photographic film.',
       toxicity: 'Polonium is highly dangerous and radioactive',
-      description:
-        'Polonium is obtained by irradiating bismuth with high-energy neutrons or protons',
+      description: 'Polonium is obtained by irradiating bismuth with high-energy neutrons or protons',
     },
     At: {
-      description:
-        'Astatine is preferentially concentrated in the thyroid gland',
+      description: 'Astatine is preferentially concentrated in the thyroid gland',
       toxicity: 'Astatine is highly radioactive',
       name: 'Astatine',
       history:
@@ -993,15 +922,13 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Rn: {
       name: 'Radon',
-      nameOrigin:
-        'The name was derived from radium; called niton at first, from the Latin word nitens meaning shining',
+      nameOrigin: 'The name was derived from radium; called niton at first, from the Latin word nitens meaning shining',
       history:
         'Radon was discovered in 1900 by Friedrich Ernst Dorn in Halle, Germany.\n\nHe reported some experiments in which he noticed that radium compounds emanate a radioactive gas.\n\nIn 1910, Sir William Ramsay and Robert Whytlaw-Gray isolated radon, determined its density, and determined that it was the heaviest known gas.',
       applications:
         'Radon is used in hydrologic research that studies the interaction between ground water and streams.\n\nRadon has been produced commercially for use in radiation therapy.\n\nRadon has been used in implantable seeds, made of gold or glass, primarily used to treat cancers.',
       toxicity: 'Radon is highly radioactive and a carcinogen',
-      description:
-        'Upon condensation, radon glows because of the intense radiation it produces',
+      description: 'Upon condensation, radon glows because of the intense radiation it produces',
     },
     Fr: {
       name: 'Francium',
@@ -1010,8 +937,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Due to its instability and rarity, there are no commercial applications for francium.\n\nIt has been used for research purposes in the fields of biology and of atomic structure.\n\nIts use as a potential diagnostic aid for various cancers has also been explored, but this application has been deemed impractical.',
       toxicity: 'Francium is highly radioactive',
-      description:
-        'Francium was the last element discovered in nature, rather than by synthesis',
+      description: 'Francium was the last element discovered in nature, rather than by synthesis',
       nameOrigin: 'Francium was named after France',
     },
     Ra: {
@@ -1036,12 +962,10 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Rf: {
       name: 'Rutherfordium',
-      nameOrigin:
-        'Named after Ernest Rutherford, the physicist and chemist from New Zealand',
+      nameOrigin: 'Named after Ernest Rutherford, the physicist and chemist from New Zealand',
       history:
         'Rutherfordium was reportedly first detected in 1964 at the Joint Institute of Nuclear Research at Dubna.\n\nThe element was synthesized by Albert Ghiorso, Matti Nurmia, James Andrew Harris, Kari Eskola and Pirkko Eskola in 1968 at the University of California, Berkeley.\n\nIt was produced by the bombardment of californium with carbon atoms.',
-      applications:
-        'Rutherfordium is used for scientific research purposes only.',
+      applications: 'Rutherfordium is used for scientific research purposes only.',
       toxicity: 'Rutherfordium is harmful due to its radioactivity',
       description: 'Rutherfordium is the first transactinide element',
     },
@@ -1052,12 +976,10 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Dubnium was reportedly first discovered in 1968 at the Joint Institute for Nuclear Research at Dubna.\n\nResearchers there bombarded an americium-243 target with neon-22 ions.\n\nIn the same year, a team led by Albert Ghiorso working at the University of California, Berkeley conclusively synthesized the element by bombarding a californium-249 target with nitrogen-15 ions.',
       applications: 'Dubnium is used for scientific research purposes only.',
       toxicity: 'Dubnium is harmful due to its radioactivity',
-      description:
-        'The Berkeley team proposed the name hahnium for the element',
+      description: 'The Berkeley team proposed the name hahnium for the element',
     },
     Sg: {
-      nameOrigin:
-        'Named after Glenn Seaborg, American nuclear chemist and Nobel prize winner',
+      nameOrigin: 'Named after Glenn Seaborg, American nuclear chemist and Nobel prize winner',
       applications: 'Seaborgium is used for scientific research purposes only.',
       toxicity: 'Seaborgium is harmful due to its radioactivity',
       history:
@@ -1070,8 +992,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Bohrium was first convincingly synthesized in 1981 by a German research team led by Peter Armbruster and Gottfried Münzenberg at the Institute for Heavy Ion Research (Gesellschaft für Schwerionenforschung) in Darmstadt.\n\nThe team bombarded a target of bismuth-209 with accelerated nuclei of chromium-54 to produce 5 atoms of the isotope bohrium-262.',
       applications: 'Bohrium is used for scientific research purposes only.',
       toxicity: 'Bohrium is harmful due to its radioactivity',
-      description:
-        'The only confirmed example of isomerism in bohrium is in the isotope 262-Bh',
+      description: 'The only confirmed example of isomerism in bohrium is in the isotope 262-Bh',
       name: ' Bohrium',
       nameOrigin: 'Named after Niels Bohr, the Danish physicist',
     },
@@ -1081,8 +1002,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Hassium was first synthesized in 1984 by a German research team led by Peter Armbruster and Gottfried Münzenberg at the Institute for Heavy Ion Research (Gesellschaft für Schwerionenforschung) in Darmstadt.\n\nThe team bombarded a target of lead-208 with accelerated nuclei of iron-58 to produce 3 atoms of the isotope hassium-265.',
       applications: 'Hassium is used for scientific research purposes only.',
       toxicity: 'Hassium is harmful due to its radioactivity',
-      description:
-        'More than 100 atoms of hassium have been synthesized to date',
+      description: 'More than 100 atoms of hassium have been synthesized to date',
       name: 'Hassium',
     },
     Mt: {
@@ -1099,8 +1019,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       nameOrigin: 'Named after the German city of Darmstadt',
       history:
         'Darmstadtium was first created in 1994, at the Institute for Heavy Ion Research (Gesellschaft für Schwerionenforschung) in Darmstadt, Germany, by Peter Armbruster and Gottfried Münzenberg, under the direction of Sigurd Hofmann.\n\nThe team bombarded a lead-208 target with accelerated nuclei of nickel-62 and detected a single atom of the isotope darmstadtium-269.',
-      applications:
-        'Darmstadtium is used for scientific research purposes only.',
+      applications: 'Darmstadtium is used for scientific research purposes only.',
       toxicity: 'Darmstadtium is harmful due to its radioactivity',
       description: 'Darmstadtium has no stable or naturally-occurring isotopes',
     },
@@ -1109,8 +1028,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       nameOrigin: 'Named after Wilhelm Conrad Röntgen, the German physicist',
       history:
         'Roentgenium was first synthesized by an international team led by Sigurd Hofmann at the Institute for Heavy Ion Research (Gesellschaft für Schwerionenforschung) in Darmstadt, Germany in 1994.\n\nThe team bombarded a target of bismuth-209 with accelerated nuclei of nickel-64 and detected a single atom of the isotope roentgenium-272.',
-      applications:
-        'Roentgenium is used for scientific research purposes only.',
+      applications: 'Roentgenium is used for scientific research purposes only.',
       description: 'Roentgenium has no stable or naturally-occurring isotopes',
       toxicity: 'Roentgenium is harmful due to its radioactivity',
     },
@@ -1118,8 +1036,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       history:
         'Copernicium was first created on February 9, 1996, at the Institute for Heavy Ion Research (Gesellschaft für Schwerionenforschung) in Darmstadt, Germany, by Sigurd Hofmann, Victor Ninov et al.\n\nThis element was created by firing accelerated zinc-70 nuclei at a target made of lead-208 nuclei in a heavy ion accelerator.\n\nA single atom of copernicium was produced with a mass number of 277.',
       name: 'Copernicium',
-      applications:
-        'Copernicium is used for scientific research purposes only.',
+      applications: 'Copernicium is used for scientific research purposes only.',
       description: 'Copernicium has no stable or naturally-occurring isotopes',
       toxicity: 'Copernicium is harmful due to its radioactivity',
       nameOrigin: 'Named after the astronomer Nicolaus Copernicus',
@@ -1157,11 +1074,9 @@ export const getEnglishDictionary = (): Dictionary => ({
       history:
         'Ununhexium (Uuh) was the temporary IUPAC systematic element name.\n\nLivermorium was identified in 2000 by a team composed of Russian scientists at Joint Institute for Nuclear Research, Dubna and American scientists at the Lawrence Livermore National Laboratory led by Yuri Oganessian and Ken Moody.',
       description: 'Livermorium is historically known as eka-polonium',
-      nameOrigin:
-        'Named after the Lawrence Livermore National Laboratory, within the city of Livermore, California',
+      nameOrigin: 'Named after the Lawrence Livermore National Laboratory, within the city of Livermore, California',
       toxicity: 'Livermorium is harmful due to its radioactivity',
-      applications:
-        'Livermorium is used for scientific research purposes only.',
+      applications: 'Livermorium is used for scientific research purposes only.',
     },
     Ts: {
       name: 'Tennessine',
@@ -1199,8 +1114,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Praseodymium is used as an alloying agent with magnesium to create high-strength metals that are used in aircraft engines.\n\nMisch metal, used in making cigarette lighters, contains about 5% praseodymium metal.\n\nPraseodymium is used to make specialized yellow glass goggles for glass blowers and welders.',
       toxicity: 'Praseodymium is considered to be moderately toxic',
-      description:
-        'Praseodymium is usually stored under a light mineral oil or sealed in glass',
+      description: 'Praseodymium is usually stored under a light mineral oil or sealed in glass',
     },
     Nd: {
       name: 'Neodymium',
@@ -1214,27 +1128,23 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Pm: {
       name: 'Promethium',
-      nameOrigin:
-        'Named after the Greek Prometheus, who, according to mythology, stole fire from heaven',
+      nameOrigin: 'Named after the Greek Prometheus, who, according to mythology, stole fire from heaven',
       history:
         'The existence of an element between neodymium and samarium was first predicted by Czech chemist Bohuslav Brauner in 1902.\n\nPromethium was first produced and characterized at Oak Ridge National Laboratory in 1945 by Jacob A. Marinsky, Lawrence E. Glendenin and Charles D. Coryell.\n\nIt was produced by the separation and analysis of the fission products of uranium fuel irradiated in a graphite reactor.',
       applications:
         'Promethium is also used in atomic batteries for spacecraft and guided missiles.\n\nPromethium is also used to measure the thickness of materials by evaluating the amount of radiation from a promethium source that passes through the sample.\n\nIt has possible future uses in portable X-ray sources, and as auxiliary heat or power sources for space probes and satellites.',
-      description:
-        'Promethium is the only lanthanide that has no stable isotopes',
+      description: 'Promethium is the only lanthanide that has no stable isotopes',
       toxicity: 'Promethium is harmful due to its radioactivity',
     },
     Sm: {
       name: 'Samarium',
-      nameOrigin:
-        'From samarskite, a mineral named after Russian mine official, Col. Samarski',
+      nameOrigin: 'From samarskite, a mineral named after Russian mine official, Col. Samarski',
       history:
         'In 1853, Jean Charles Galissard de Marignac discovered samarium when he found lines in mineral spectra.\n\nPaul Émile Lecoq de Boisbaudran isolated a samarium salt in Paris in 1879 from the mineral samarskite and identified a new element in it via sharp optical absorption lines.\n\nThe pure element was produced only in 1901 by Eugène-Anatole Demarçay.',
       applications:
         "Samarium's main use is in samarium-cobalt alloy magnets for headphones, small motors and pickups for some electric guitars.\n\nRadioactive samarium-153 is used to kill cancer cells in the treatment of lung cancer, prostate cancer, breast cancer and osteosarcoma.\n\nSamarium and its compounds are also used as catalyst and chemical reagent.",
       toxicity: 'Samarium is considered to be moderately toxic',
-      description:
-        'Samarium metal can be produced by reducing the oxide with lanthanum',
+      description: 'Samarium metal can be produced by reducing the oxide with lanthanum',
     },
     Eu: {
       name: 'Europium',
@@ -1248,15 +1158,13 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Gd: {
       name: 'Gadolinium',
-      description:
-        'Gadolinium has the highest neutron cross-section among any stable nuclides',
+      description: 'Gadolinium has the highest neutron cross-section among any stable nuclides',
       toxicity: 'Gadolinium is considered to be moderately toxic',
       history:
         'Gadolinium was first detected spectroscopically in 1880 by the Swiss chemist Jean Charles Galissard de Marignac who separated its oxide.\n\nHe observed spectroscopic lines due to gadolinium in samples of gadolinite and in the separate mineral cerite.\n\nThe metal was isolated by Paul Emile Lecoq de Boisbaudran in 1886.',
       applications:
         'Gadolinium is used to make gadolinium yttrium garnets which have microwave applications.\n\nIt is also used in intravenous radiocontrast agents in magnetic resonance imaging (MRI).\n\nGadolinium compounds are used for making green phosphors for color TV tubes, and in manufacturing compact discs.',
-      nameOrigin:
-        'From gadolinite, a mineral named for Gadolin, a Finnish chemist',
+      nameOrigin: 'From gadolinite, a mineral named for Gadolin, a Finnish chemist',
     },
     Tb: {
       applications:
@@ -1285,15 +1193,13 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Holmium is used to create the strongest artificially generated magnetic fields, when placed within high-strength magnets as a magnetic pole piece.\n\nIt is one of the colorants used for cubic zirconia and glass, providing yellow or red coloring.\n\nHolmium isotopes are good neutron absorbers and are used in nuclear reactor control rods.',
       toxicity: 'Holmium is considered to be of low toxicity',
-      description:
-        'Holmium has the highest magnetic strength of any naturally occurring element',
+      description: 'Holmium has the highest magnetic strength of any naturally occurring element',
       nameOrigin: 'From the Latin word Holmia meaning Stockholm',
     },
     Er: {
       name: 'Erbium',
       toxicity: 'Erbium is considered to be moderately toxic',
-      description:
-        'The highest concentration of erbium in humans is in the bones',
+      description: 'The highest concentration of erbium in humans is in the bones',
       history:
         'Erbium was discovered in 1843 by Swedish chemist Carl Gustaf Mosander, who detected it as an impurity in yttria.\n\nUsing ammonium hydroxide he precipitated fractions of different basicity from yttria.\n\nIn these fractions he found that the fraction that contained the pink color was erbium.',
       applications:
@@ -1327,8 +1233,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Lutetium oxide is used to make catalysts for cracking hydrocarbons in the petrochemical industry.\n\nLutetium aluminum garnet has been proposed for use as a lens material in high refractive index immersion lithography.\n\nLutetium is used as a phosphor in LED light bulbs.',
       toxicity: 'Lutetium is considered to be non toxic',
-      description:
-        'Lutetium was the last natural rare earth element to be discovered',
+      description: 'Lutetium was the last natural rare earth element to be discovered',
       name: 'Lutetium',
     },
     Th: {
@@ -1338,14 +1243,12 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Thorium was discovered by Jöns Jacob Berzelius in 1828, in Stockholm, Sweden.\n\nThorium was first observed to be radioactive in 1898, independently, by Polish-French physicist Marie Curie and German chemist Gerhard Carl Schmidt.\n\nThe crystal bar process was discovered by Anton Eduard van Arkel and Jan Hendrik de Boer in 1925 to produce high-purity metallic thorium.',
       applications:
         'Thorium is used to coat tungsten filaments in light bulbs.\n\nIt is also used in its oxide form in gas tungsten arc welding to increase the high-temperature strength of tungsten electrodes and improve arc stability.\n\nThorium-magnesium alloys are used in the aerospace industry for aircraft engines.',
-      description:
-        'Thorium fuel research is continuing in several countries including the USA and India',
+      description: 'Thorium fuel research is continuing in several countries including the USA and India',
       toxicity: 'Thorium is highly radioactive',
     },
     Pa: {
       name: 'Protactinium',
-      description:
-        'Protactinium is one of the rarest and most expensive naturally occurring elements',
+      description: 'Protactinium is one of the rarest and most expensive naturally occurring elements',
       nameOrigin: 'From the Greek protos meaning first',
       history:
         'In 1900, William Crookes isolated protactinium as an intensely radioactive material from uranium\n\nProtactinium was first identified in 1913 by Kasimir Fajans and Oswald Helmuth Göhring in Germany.\n\nA more stable isotope of protactinium was discovered in 1917 by Otto Hahn and Lise Meitner at the Kaiser Wilhelm Institute in Berlin.',
@@ -1361,8 +1264,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Uranium is used as fuel for nuclear power plants.\n\nUranium is used as a colorant in uranium glass, producing orange-red to lemon yellow hues.\n\nIt was also used for tinting and shading in early photography.\n\nThe major application of uranium in the military sector is in high-density penetrators.',
       toxicity: 'Uranium is toxic and highly radioactive',
-      description:
-        'Uranium-235 was the first isotope that was found to be fissile',
+      description: 'Uranium-235 was the first isotope that was found to be fissile',
     },
     Np: {
       name: 'Neptunium',
@@ -1372,8 +1274,7 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Neptunium is used mainly for research purposes.\n\nWhen bombarded with neutrons 237-Np is used to produce 238-Pu which is used for spacecraft generators and terrestrial navigation beacons.\n\n237-Np is used in devices for detecting high-energy neutrons.',
       toxicity: 'Neptunium is harmful due to its radioactivity',
-      description:
-        'Neptunium is obtained as a by-product from nuclear reactors',
+      description: 'Neptunium is obtained as a by-product from nuclear reactors',
     },
     Pu: {
       name: 'Plutonium',
@@ -1382,15 +1283,13 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'The isotope plutonium-239 is a key fissile component in nuclear weapons, due to its ease of fission and availability.\n\nPlutonium-238 has also been used successfully to power artificial heart pacemakers, to reduce the risk of repeated surgery.\n\nPlutonium-238 mixed with beryllium is used to generate neutrons for research purposes.',
       toxicity: 'Plutonium is harmful due to its radioactivity',
-      description:
-        'The atomic bomb dropped on Nagasaki, Japan in 1945 had a plutonium core',
+      description: 'The atomic bomb dropped on Nagasaki, Japan in 1945 had a plutonium core',
       nameOrigin: 'Named after the planet Pluto',
     },
     Am: {
       nameOrigin: 'Named after America',
       name: 'Americium',
-      description:
-        'Americium often enters landfills from discarded smoke detectors',
+      description: 'Americium often enters landfills from discarded smoke detectors',
       history:
         'Americium-241 was first identified in 1944 by Glenn T. Seaborg, Ralph A. James, Leon O. Morgan and Albert Ghiorso at the metallurgical laboratory at the University of Chicago.\n\nIt was produced by irradiating plutonium with neutrons during the Manhattan Project.\n\nAmericium was first isolated as a pure compound by Burris Cunningham in 1945, at the University of Chicago.',
       applications:
@@ -1399,12 +1298,10 @@ export const getEnglishDictionary = (): Dictionary => ({
     },
     Cm: {
       name: 'Curium',
-      nameOrigin:
-        'Curium is named after Madame Curie and her husband Pierre Curie',
+      nameOrigin: 'Curium is named after Madame Curie and her husband Pierre Curie',
       history:
         'Curium was discovered by Glenn T. Seaborg, Ralph A. James and Albert Ghiorso in 1944 at the University of California, Berkeley.\n\nIt was produced by bombarding plutonium with alpha particles during the Manhattan Project.\n\nCurium metal was produced only in 1951 by reduction of curium fluoride with barium.',
-      description:
-        'Curium accumulates in the bones, lungs and liver, where it promotes cancer',
+      description: 'Curium accumulates in the bones, lungs and liver, where it promotes cancer',
       toxicity: 'Curium is harmful due to its radioactivity',
       applications:
         'Curium is mainly used for scientific research purposes.\n\nCurium is a common starting material for the production of higher transuranic elements and transactinides.\n\nThe most practical application of 244-Cm is as α-particle source in the alpha particle X-ray spectrometers (APXS).',
@@ -1416,8 +1313,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Berkelium was discovered by Glenn T. Seaborg, Albert Ghiorso and Stanley G. Thompson in 1949 at the University of California, Berkeley.\n\nIt was produced by the bombardment of americium with alpha particles.\n\nBerkelium was isolated in greater quantities for the first time by Burris Cunningham and Stanley Thompson in 1958.',
       applications:
         'Berkelium is mainly used for scientific research purposes.\n\nBerkelium-249 is a common target nuclide to prepare still heavier transuranic elements and transactinides, such as lawrencium, rutherfordium and bohrium.\n\nIt is also useful as a source of the isotope californium-249.',
-      description:
-        'Just over one gram of berkelium has been produced in the United States since 1967',
+      description: 'Just over one gram of berkelium has been produced in the United States since 1967',
       toxicity: 'Berkelium is harmful due to its radioactivity',
     },
     Cf: {
@@ -1426,8 +1322,7 @@ export const getEnglishDictionary = (): Dictionary => ({
         'Californium is used as a portable neutron source for discovery of metals such as gold or silver by on-the-spot activation analysis.\n\nNeutrons from californium are employed as a treatment of certain cervical and brain cancers where other radiation therapy is ineffective.\n\nNeutron moisture gauges use californium-252 to find water and petroleum layers in oil wells.',
       history:
         'Californium was discovered by Stanley G. Thompson, Kenneth Street, Jr., Albert Ghiorso and Glenn T. Seaborg in 1950 at the University of California, Berkeley.\n\nIt was produced by the bombardment of curium with alpha particles.\n\nCalifornium was isolated in macro quantities for the first time by Burris Cunningham and Stanley Thompson in 1958.',
-      description:
-        'Californium is produced in nuclear reactors and particle accelerators',
+      description: 'Californium is produced in nuclear reactors and particle accelerators',
       toxicity: 'Californium is harmful due to its radioactivity',
       nameOrigin: 'Named after California and the University of California',
     },
@@ -1438,31 +1333,26 @@ export const getEnglishDictionary = (): Dictionary => ({
       applications:
         'Einsteinium is mainly used for scientific research purposes.\n\nThe rare isotope einsteinium-254 is favored for production of ultraheavy elements.\n\nEinsteinium-254 was used as the calibration marker in the chemical analysis spectrometer of the Surveyor 5 lunar probe.',
       toxicity: 'Einsteinium is harmful due to its radioactivity',
-      description:
-        'Einsteinium is the first divalent metal in the actinide series',
+      description: 'Einsteinium is the first divalent metal in the actinide series',
       nameOrigin: 'Named after Albert Einstein',
     },
     Fm: {
       name: 'Fermium',
       history:
         'Fermium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952.\n\nIt was identified by Albert Ghiorso and co-workers at the University of California, Berkeley in collaboration with the Argonne and Los Alamos National Laboratories, in the fallout from the Ivy Mike nuclear test.\n\nThe new element was produced by the nuclear fission of 17 neutrons with uranium-238.',
-      nameOrigin:
-        'Named after Nobel laureate Enrico Fermi, one of the pioneers of nuclear physics',
+      nameOrigin: 'Named after Nobel laureate Enrico Fermi, one of the pioneers of nuclear physics',
       applications: 'Fermium is used for scientific research purposes only.',
       description: 'Sixteen isotopes of fermium are known to exist',
       toxicity: 'Fermium is harmful due to its radioactivity',
     },
     Md: {
       name: 'Mendelevium',
-      nameOrigin:
-        'Named after Dmitri Mendeleev, who created the Periodic Table',
+      nameOrigin: 'Named after Dmitri Mendeleev, who created the Periodic Table',
       history:
         'Mendelevium was discovered by Albert Ghiorso, Glenn T. Seaborg, Gregory R. Choppin, Bernard G. Harvey and Stanley G. Thompson in 1955 at the University of California, Berkeley.\n\nIt was produced by the bombardment of einsteinium with helium.\n\nMendelevium was identified by chemical analysis in an ion exchange experiment.',
-      applications:
-        'Mendelevium is used for scientific research purposes only.',
+      applications: 'Mendelevium is used for scientific research purposes only.',
       toxicity: 'Mendelevium is harmful due to its radioactivity',
-      description:
-        'Mendelevium was the first element to be produced one atom at a time',
+      description: 'Mendelevium was the first element to be produced one atom at a time',
     },
     No: {
       name: 'Nobelium',

@@ -11,6 +11,7 @@ const initState = {
     tabWidth: 1,
     playSound: false,
     primaryColor: DEFAULT_PRIMARY_COLOR,
+    fontSize: 1.0,
   },
 };
 
@@ -39,10 +40,20 @@ const settings = createSlice({
     setPrimaryColor(state, action) {
       state.settings.primaryColor = action.payload;
     },
+    setFontSize(state, action) {
+      state.settings.fontSize = action.payload;
+    },
   },
 });
 
-export const { setLangID, setShowElementName, setShowElementAtomicWeight, setPlaySound, setPrimaryColor, setTabWidth } =
-  settings.actions;
+export const {
+  setLangID,
+  setShowElementName,
+  setShowElementAtomicWeight,
+  setPlaySound,
+  setPrimaryColor,
+  setTabWidth,
+  setFontSize,
+} = settings.actions;
 export default settings.reducer;
 export const selectSettings = (state: any): Settings => state.settings.settings;
